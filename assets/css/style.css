@@ -56,7 +56,7 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0 30px 0;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -80,6 +80,8 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  margin-bottom:25px;
+  
 }
 
 nav a {
@@ -215,3 +217,55 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width: 980px){
+  .content-wrap {
+    width: 900px;
+  }
+  nav {
+    width: 100%;
+    font-size: 50px;
+    padding: 10px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .work{
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px){
+  .content-wrap {
+    width: 760px;
+  }
+  nav {
+    width: 100%;
+    font-size: 50px;
+    padding: 10px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .work{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px){
+  .content-wrap {
+    width: 600px;
+  }
+  nav {
+    width: 100%;
+    font-size: 50px;
+    padding: 10px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .work{
+    width: 100%;
+  }
+}
+
